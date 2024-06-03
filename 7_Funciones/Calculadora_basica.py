@@ -74,9 +74,7 @@ def operacionAritmetica(num1,num2,opcion):
      return f"{n1}*{n2}={n1*n2}"
     elif opcion=="4" or opcion=="/" or opcion=="DIVISION":
      return f"{n1}/{n2}={n1/n2}"  
-    else:  
-     opcion=False    
-     return "Terminaste la ejecucion del SW"
+    
 
     
 opcion=True    
@@ -86,3 +84,10 @@ while opcion:
 
  solicitarNumeros()
  print(operacionAritmetica(n1,n2,opcion))
+
+ if opcion!="5":
+    solicitarNumeros
+    print(operacionAritmetica(n1,n2,opcion))
+ else:  
+     opcion=False    
+     return "Terminaste la ejecucion del SW"
